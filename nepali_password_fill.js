@@ -37,7 +37,7 @@ async function fillForm(data, ddData) {
             const ddSelectValue = ddData[labelText];
             const dropdownElemId = $ddElem.find("mat-select").attr("id");
             $("#" + dropdownElemId + " " + ".mat-select-trigger").click();
-            await delayForDomLoad(1000);
+            await delayForDomLoad(400);
             const $optionElem = $("#" + dropdownElemId + "-panel mat-optgroup mat-option");
             for (let i = 0; i < $optionElem.length; i++) {
                 const optID = $($optionElem[i]).attr('id');
@@ -52,8 +52,8 @@ async function fillForm(data, ddData) {
 
 // Fill the form with the required data
 fillForm({
-        lastName: 'Shrestha',
-        firstName: 'Rujesh',
+        lastName: 'Your Last name',
+        firstName: 'Your First name',
         gender: 'M',
         dateOfBirth: "2000-01-01",
         isExactDateOfBirth: "true",
@@ -68,12 +68,12 @@ fillForm({
         mainAddressHouseNum: "Some house no",
         mainAddressStreetVillage: "Some address 2",
         mainAddressWard: "some ward no",
-        contactLastName: "e last namme", //EMERGENCY CONTACT
-        contactFirstName: "e first name", //EMERGENCY CONTACT
-        contactStreetVillage: "e street", //EMERGENCY CONTACT
-        contactWard: "e ward no", //EMERGENCY CONTACT
-        contactPhone: "e phone no", //EMERGENCY CONTACT
-        contactEmail: "e email", //EMERGENCY CONTACT
+        contactLastName: "emergency last namme",
+        contactFirstName: "emergency first name",
+        contactStreetVillage: "emergency street",
+        contactWard: "emergency ward no",
+        contactPhone: "emergency phone no",
+        contactEmail: "emergency email",
         currentTDIssueDate: "2020-01-01",
         currentTDNum: "passport number",
         nin: "National identity number",

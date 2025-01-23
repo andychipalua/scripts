@@ -68,12 +68,12 @@ fillForm({
         mainAddressHouseNum: "Some house no",
         mainAddressStreetVillage: "Some address 2",
         mainAddressWard: "some ward no",
-        contactLastName: "e last namme",
-        contactFirstName: "e first name",
-        contactStreetVillage: "e street",
-        contactWard: "e ward no",
-        contactPhone: "e phone no",
-        contactEmail: "e email",
+        contactLastName: "e last namme", //EMERGENCY CONTACT
+        contactFirstName: "e first name", //EMERGENCY CONTACT
+        contactStreetVillage: "e street", //EMERGENCY CONTACT
+        contactWard: "e ward no", //EMERGENCY CONTACT
+        contactPhone: "e phone no", //EMERGENCY CONTACT
+        contactEmail: "e email", //EMERGENCY CONTACT
         currentTDIssueDate: "2020-01-01",
         currentTDNum: "passport number",
         nin: "National identity number",

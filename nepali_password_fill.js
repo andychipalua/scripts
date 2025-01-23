@@ -80,15 +80,15 @@ fillForm({
         citizenNum: "Citizen number",
         citizenIssueDateBS: "2041-01-01",
     }, {
-        "Place of Birth (District/Country if born abroad)": "Kavrepalanchok",// Place of birth
-        "Citizenship Place of Issue (District)": "Kavrepalanchok",// Place of birth
-        "Main Address Province": "Bagmati",// Place of birth
-        "Main Address District": "Kavrepalanchok",// Place of birth
-        "Main Address Municipality": "Banepa Municipality",// Place of birth
-        "Province": "Bagmati",// Place of birth
-        "District": "Kavrepalanchok",// Place of birth
-        "Municipality": "Banepa Municipality",// Place of birth
-        "Place of Issue (District) - For Existing Passport": "DAO Kathmandu",// Place of birth
+        "Place of Birth (District/Country if born abroad)": "Kavrepalanchok",
+        "Citizenship Place of Issue (District)": "Kavrepalanchok",
+        "Main Address Province": "Bagmati",
+        "Main Address District": "Kavrepalanchok",
+        "Main Address Municipality": "Banepa Municipality",
+        "Province": "Bagmati",
+        "District": "Kavrepalanchok",
+        "Municipality": "Banepa Municipality",
+        "Place of Issue (District) - For Existing Passport": "DAO Kathmandu",
     }
 );
 
